@@ -34,7 +34,7 @@ function calculateTotal(items) {
     }
   }
 
-  return `£${(total / 100).toFixed(2)}`;
+  return `${(total / 100).toFixed(2)} p`;
 }
 
 app.post('/calculate', (req, res) => {

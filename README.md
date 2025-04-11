@@ -1,47 +1,75 @@
-Shopping Basket Price Calculator
+# 🛒 Shopping Basket Price Calculator
 
-This JavaScript program calculates the total price of a shopping basket while applying special offers on certain items.
+A simple full-stack web application to calculate the total price of a shopping basket based on item quantity and promotional offers. Built with **Node.js**, **React**, and styled for a clean user experience.
 
-Features
+---
 
-Supports pricing for Apples, Bananas, Melons, and Limes.
+## ✨ Features
 
-Applies the following discounts:
+- Select fruits and quantities from dropdowns
+- Apply real-time offers like:
+  - 🍈 Melon – **Buy 1 Get 1 Free**
+  - 🟢 Lime – **3 for the Price of 2**
+- Limit: **Max 10 of each fruit**
+- Auto-calculated total in p
+- Clean and responsive UI
 
-Melons: Buy one, get one free.
+---
 
-Limes: Three for the price of two.
+## 🧱 Tech Stack
 
-Returns the total price in p.
+- ⚙️ Backend: Node.js + Express
+- 🎨 Frontend: React
+- 💬 Communication: REST API
 
-Usage
+---
 
-Function Definition
+## 🚀 Getting Started
 
-The main function calculateTotalCartAmount(basket) takes an array of item names and returns the total cost.
+### 1. Clone the repository
 
-Example
+```bash
+git clone https://github.com/uddeshrothe/Shopping.git
+```
 
-console.log(calculateTotal(['Apple', 'Apple', 'Banana', 'Melon', 'Melon', 'Lime', 'Lime', 'Lime', 'Lime']));
+---
 
-Output:
+### 2. Run the Backend
 
-Total: 170p
+```bash
+cd backend
+npm install
+npm start
+```
 
-How It Works
+The backend will start on [http://localhost:4000]
 
-Prices and offers are defined in objects.
+---
 
-The function counts the occurrences of each item.
+### 3. Run the Frontend
 
-It applies any applicable discounts.
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-The total cost is calculated and formatted in p.
+The frontend will start on [http://localhost:3000]
 
-Setup
+---
 
-Copy the JavaScript code into a .js file.
+## 🧮 Pricing Rules
 
-Run the script using Node.js:
+| Fruit   | Price  | Offer                     |
+|---------|--------|---------------------------|
+| Apple   | £0.35  | -                         |
+| Banana  | £0.20  | -                         |
+| Melon   | £0.50  | Buy 1 Get 1 Free          |
+| Lime    | £0.15  | 3 for the Price of 2      |
 
-node Shopping_test.js
+
+## 🧑‍💻 Author
+
+Made with ❤️ by [Uddesh Rothe](https://github.com/uddeshrothe)
+
+---
