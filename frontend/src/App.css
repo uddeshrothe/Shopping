@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+select, input[type="number"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3f51b5;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+.calc-btn {
+  margin-top: 20px;
+  background-color: #4caf50;
+}
+
+.calc-btn:hover {
+  background-color: #388e3c;
+}
+
+.basket-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.basket-list li {
+  background: #f9f9f9;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+
+.card h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.card h2 span {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.info-text {
+  margin-top: 10px;
+  color: #4caf50;
+  font-weight: 500;
+  background: #eaffea;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border-left: 4px solid #4caf50;
+  text-align: left;
+}
+
+.offers {
+  background: #fffbe6;
+  border-left: 6px solid #ffc107;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.offers h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.offers ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.offers li {
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
